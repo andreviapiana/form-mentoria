@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body legend,
+p,
+footer .button {
+    font-family: 'Staatliches', cursive;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+    background: #E5E5E5;;
+}
+
+body::before {
+    content: "";
+    width: 100%;
+    height: 436px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #535971;
+}
+
+.page {
+    width: 750px;
+    margin: auto;
+}
+
+/* ============================== HEADER ============================== */
+header {
+    width: 417px;
+    margin-top: 140px;
+}
+
+header h1 {
+    font-family: 'Staatliches', sans-serif;
+    color: white;
+    font-size: 48px;
+    font-style: normal;
+    line-height: 60px;
+
+    width: 163px;
+    margin-bottom: 18px;
+    
+}
+
+header p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+    font-size: 20px;
+    line-height: 30px;
+
+    margin-bottom: 44px;
+
+}
+
+/* ============================== FORMULÁRIO ============================== */
+form {
+    background: #ffffff;
+    border-radius: 20px 20px 0 0;
+    min-height: 300px;
+
+    padding: 64px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+fieldset {
+    border: none;
+    
+}
+
+.fieldset-wrapper {
+    display: flex;
+    flex-direction: column;
+
+
+    color: #535971;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+#main-legend {
+    padding-bottom: 16px;
+}
+
+fieldset legend {
+    font-size: 24px;
+    line-height: 34px;
+
+    border-bottom: 1px solid #e6e6f0;
+    width: 100%;
+    padding-bottom: 8px;
+
+    color: #535971;
+}
+
+fieldset label {
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
+
+    margin-top: 16px;
+}
+
+fieldset label span {
+    font-size: 12px;
+    line-height: 20px;
+
+    color: #C1BCCC;
+}
+
+fieldset label span:hover {
+    color: #8f8a9b;
+}
+
+fieldset p {
+    margin-top: 32px;
+    margin-bottom: 0;
+
+    font-size: 20px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+
+    padding-top: 36px;
+}
+
+.input-group input {
+    width: 300px;
+}
+
+.input-group label {
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
+    margin-top: 0;
+}
+
+#main-legend {
+    padding-bottom: 16px;
+}
+
+.input-wrapper input,
+.input-wrapper textarea,
+.input-wrapper select {
+    background: #FAFAFC;
+
+    border: 1px solid #e6e6f0;
+    border-radius: 8px;
+
+    height: 56px;
+    margin-top: 8px;
+
+    padding: 0 24px;
+
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #6c6a71;
+}
+
+.input-first {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mentor-date {
+    width: 300px;
+    margin-right: 32px;
+}
+
+.input-first label {
+    margin-top: 8px;
+}
+
+#mentor-hour-initial,
+#mentor-hour-final {
+    width: 140px;
+    margin-right: 10px;
+}
+
+.input-second {
+    display: flex;
+    justify-content: space-between;
+}
+
+#second-p {
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+#second-mentor-date {
+    width: 300px;
+    margin-right: 32px;
+}
+
+.input-second label {
+    margin-top: 8px;
+}
+
+.input-mentor {
+    padding-top: 16px;
+}
+
+/* ============================== FOOTER ============================== */
+footer {
+    display: flex;
+
+    width: 750px;
+    height: 160px;
+    border-radius: 0px 0px 20px 20px;
+
+    margin: auto;
+
+    padding: 52px 71px;
+    background: #535971;
+}
+
+footer .button {
+    width: 608px;
+
+    padding: 15px 40px 15px;
+
+    border-radius: 20px;
+    border: 0;
+
+    font-size: 20px;
+    line-height: 26px;
+
+    color: white;
+
+    background: #FF5374;
+}
+
+footer .button:hover {
+    background: #c4415b;
+}
