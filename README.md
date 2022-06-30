@@ -10,4 +10,4 @@ O objetivo final foi atingido sem maiores obstáculos.
 
 O carregamento dos arquivos foi todo feito via linha de comando utilizando o Git Bash.
 
-[O resultado final pode ser visto aqui](https://andreviapiana.github.io/form-mentoria/)
+[O resultado final pode ser visto aqui](https://andreviapiana.github.io/form-avaliacao-mentoria/)
